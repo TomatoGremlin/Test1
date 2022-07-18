@@ -1,0 +1,25 @@
+//3.1:
+ps -e | wc -l
+
+//3.2:
+mkdir "MMS C camp"
+find . -name "*.c" -exec mv {} ~/"MMS C camp"/ . \;
+find . -name "[0-9]*" -exec rm {} . \;
+
+//3.3:
+cd ~/Desktop
+ls -l testFile
+chmod 754 testFile
+
+//3.3:
+cd ~/.
+wc -l source1.c > lineCount
+wc -l source2.c >> lineCount
+
+//3.4:
+find . -name "*.c"
+find . -name "*.c" -exec wc -l {} \; 
+
+
+
+
