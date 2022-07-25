@@ -11,12 +11,12 @@ cd ~/Desktop
 ls -l testFile
 chmod 754 testFile
 
-//3.3:
+//3.4:
 cd ~/.
 wc -l source1.c > lineCount
 wc -l source2.c >> lineCount
 
-//3.4:
+//3.5:
 find . -name "*.c"
 find . -name "*.c" -exec wc -l {} \; 
 
