@@ -3,7 +3,7 @@ ps -e | wc -l
 
 //3.2:
 mkdir "MMS C camp"
-find . -name "*.c" -exec mv {} ~/"MMS C camp"/ . \;
+find . -name "*.c" -exec cp {} ~/"MMS C camp"/ \;
 find . -name "[0-9]*" -exec rm {} . \;
 
 //3.3:
